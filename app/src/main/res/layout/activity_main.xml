@@ -20,7 +20,8 @@
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/button"
@@ -81,11 +82,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="17dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="@string/todo"
+        android:onClick="toExercise"
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText3"
-        app:srcCompat="@drawable/bi"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/bi" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -101,6 +103,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="224dp"
         android:background="yellow"
+        android:onClick="toExercise"
         android:text="@string/exercise"
         android:textAllCaps="false"
         android:textColor="#800000"

@@ -13,8 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void toExercise(View v) {
-
-        Intent i = new Intent(packageContext: this, exercise.class);
+        Intent i = new Intent (createPackageContext(this, exercise.class));
         startActivity(i);
     }
 }
