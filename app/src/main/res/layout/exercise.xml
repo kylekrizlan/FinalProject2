@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:background="#f29e9e"
+        android:text="Medication"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="#f29e9e"
+        android:text="Health Records"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:background="#f29e9e"
+        android:text="Medical I.D."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF66"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Exercise"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="131dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Today"
+        android:textColor="#800000"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:background="	#FFD700"
+        android:text="Warmup"
+        android:textColor="#800000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:background="	#FFD700"
+        android:text="Chest Workout"
+        android:textColor="#800000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:background="	#FFD700"
+        android:text="Core Workouts"
+        android:textColor="#800000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:background="	#FFD700"
+        android:text="Arm Workouts"
+        android:textColor="#800000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="424dp" />
+</android.support.constraint.ConstraintLayout>
