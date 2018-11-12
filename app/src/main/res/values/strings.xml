@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="medication">Medication</string>
+    <string name="exercise">Exercise</string>
+    <string name="warmup">Warmup</string>
+    <string name="chest_workout">Chest Workout</string>
+    <string name="core_workouts">Core Workouts</string>
+    <string name="arm_workouts">Arm Workouts</string>
+    <string name="health_records">Health Records</string>
+    <string name="medical_i_d">Medical I.D.</string>
+    <string name="today">Today</string>
+    <string name="health_wellness"><![CDATA[Health & Wellness]]></string>
+    <string name="analysis">Analysis</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="sleep">Sleep</string>
+
 </resources>

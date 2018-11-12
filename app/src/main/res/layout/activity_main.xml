@@ -10,59 +10,82 @@
         android:id="@+id/editText3"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Health & Wellness"
+        android:text="@string/health_wellness"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="364dp"
         android:layout_height="41dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="36dp"
         android:layout_marginBottom="8dp"
         android:background="#f29e9e"
-        android:text="Medication"
+        android:text="@string/medication"
         android:textAlignment="center"
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button3"
-        tools:layout_editor_absoluteX="11dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton13" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="365dp"
         android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="36dp"
         android:layout_marginBottom="8dp"
         android:background="#f29e9e"
-        android:text="Health Records"
+        android:text="@string/health_records"
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button4"
-        tools:layout_editor_absoluteX="10dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="365dp"
         android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="95dp"
         android:background="#f29e9e"
-        android:text="Medical I.D."
+        android:text="@string/medical_i_d"
         android:textSize="23sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="521dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="174"
         android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
         app:srcCompat="@drawable/bi"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="95dp" />
+        android:contentDescription="@string/todo" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -75,81 +98,107 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="18dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="224dp"
         android:background="yellow"
-        android:text="Exercise"
+        android:text="@string/exercise"
         android:textAllCaps="false"
         android:textColor="#800000"
         android:textSize="15sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="174"
         android:layout_height="150"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
         app:srcCompat="@drawable/bg"
-        tools:layout_editor_absoluteX="202dp"
-        tools:layout_editor_absoluteY="95dp" />
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="76dp"
         android:background="#558336"
-        android:text="Analysis"
+        android:text="@string/analysis"
         android:textColor="@android:color/black"
         android:textSize="15sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="72dp"
         android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="53dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/st"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/imageButton13"
         android:layout_width="174"
         android:layout_height="157dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
         app:srcCompat="@drawable/n2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="254dp" />
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="384dp"
         android:background="#ec6945"
-        android:text="Nutrition"
+        android:text="@string/nutrition"
         android:textColor="#800000"
         android:textSize="15sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="381dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton14"
-        android:layout_width="174"
+        android:layout_width="170dp"
         android:layout_height="157"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton13"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
         app:srcCompat="@drawable/sl"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="254dp" />
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="100dp"
         android:background="#b1c1e1"
-        android:text="Sleep"
+        android:text="@string/sleep"
         android:textColor="dark @android:color/holo_blue_dark"
         android:textSize="15sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="381dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
